@@ -122,6 +122,12 @@ header {
         &.display {
             transform: translateX(0);
         }
+
+    
+    }
+
+    .interface .nav-list.display body {
+        overflow: hidden;
     }
 
     .interface .btn-header {
