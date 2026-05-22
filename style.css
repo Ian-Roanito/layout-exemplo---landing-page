@@ -18,6 +18,9 @@
 body {
     overflow-x: hidden;
 
+    &.travado {
+        overflow: hidden;
+    }
 }
 
 .travado {

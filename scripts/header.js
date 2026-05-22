@@ -18,10 +18,12 @@ const navList = document.getElementById("navList");
 const link = document.querySelectorAll(".nav-list a");
 
 const body = document.getElementById("body");
+const html = document.getElementById("html");
 
 btnMobile.addEventListener('click', () => {
 
-    body.classList.toggle('travado');
+    body.classList.add('travado');
+    html.classList.add('travado');
     
     navList.classList.toggle('display');
 })
@@ -31,6 +33,7 @@ link.forEach(link => {
     link.addEventListener('click', () => {
         
         body.classList.remove('travado');
+        html.classList.remove('travado');
 
         navList.classList.remove('display');
     })
