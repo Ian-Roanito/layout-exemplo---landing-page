@@ -8,12 +8,13 @@ header {
     left: 0;
     z-index: 10;
     transition: 0.5s;
+    position: relative;
 
     .interface {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        position: relative;
+        
     }
 
     .btn-mobile {
@@ -97,14 +98,14 @@ header {
 
     .interface .btn-mobile {
         display: block;
-        z-index: 5;
+        z-index: 20;
     }
 
     .interface .nav-list {
         position: absolute;
         top: 0;
         left: 0;
-        
+        z-index: 15;
         width: 100vw;
         height: 100vh;
         background-color: white;

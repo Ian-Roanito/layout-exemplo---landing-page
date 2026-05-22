@@ -18,13 +18,14 @@
 body {
     overflow-x: hidden;
 
-    &.travado {
-        overflow: hidden;
-    }
+}
+
+.travado {
+    overflow: hidden;
 }
 
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 30px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
