@@ -13,7 +13,7 @@
     <!-- link scripts -->
     <script src="scripts/header.js" defer></script>
     <script src="scripts/carrossel.js" defer></script>
-    <script src="scripts/atualizarRolagem.js" defer></script>
+    
 </head>
 <body id="body">
     <!-- HEADER -->
@@ -267,5 +267,15 @@
             <p>"Nome site/Empresa" &copy; 2026</p>
         </section>
     </footer>
+
+    <script>
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            window.scrollTo({top: 0, behavior: 'auto'})
+        })
+    </script>
 </body>
 </html>
