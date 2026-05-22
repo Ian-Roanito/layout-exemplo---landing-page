@@ -5,8 +5,9 @@ body {
 
 
 /* ESTILIZAÇÃO HERO */
+
 .grid-hero {
-    margin-top: 40px;
+    margin-top: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
