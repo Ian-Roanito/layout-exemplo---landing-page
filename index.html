@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout inicio</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link font awesome -->
+    <script src="https://kit.fontawesome.com/3a4a8b30ac.js" crossorigin="anonymous"></script>
+
+    <!-- link scripts -->
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/carrossel.js" defer></script>
+</head>
+<body>
+    <!-- HEADER -->
+     <!-- Faze a responsividade do menu mobile -->
+    <header id="header">
+        <div class="interface">
+            <div class="logo">
+                <h1>Logo aqui</h1>
+            </div>
+
+            <div class="btn-mobile" id="btnMobile">
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+
+            <nav class="nav-list" id="navList">
+                <ul>
+                    <li><a href="#colecao" id="link">Coleção</a></li>
+                    <li><a href="#sobre" id="link">Sobre</a></li>
+                    <li><a href="#produtos" id="link">Melhores Produtos</a></li>
+                    <li><a href="#evento" id="link">Evento</a></li>
+                    <li><a href="#footer" id="link">Rodapé</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-header">
+                <a href="#">Clique aqui</a>
+            </div>
+        </div>
+    </header>
+    <!-- FIM DO HEADER -->
+
+    <main>
+
+        <!-- SEÇÃO HERO -->
+        <div class="interface">
+            <section class="grid-hero">
+                <div class="titulo-hero">
+                    <h2>Find The Best <span>Fashion Style</span> <span>For You</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellat, unde est modi ut asperiores cumque quasi rerum voluptates sit animi mollitia ea, magni similique quam ducimus totam, natus commodi.</p>
+                    <div class="btn-hero"><a href="#">Contato</a></div>
+                </div>
+
+                <div class="img-hero"></div>
+            </section>
+        </div>
+        <!-- FIM DA SEÇÃO HERO -->
+
+        <!-- SEÇÃO CARDS E SOBRE -->
+       <section class="bg-secao">
+            <div class="interface">
+
+                <!-- CARDS PRODUTOS -->
+                <section class="grid-colecao" id="colecao">
+                    <div class="titulo">
+                        <h2>New Collection</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis earum quis eos fugit ipsa rem, aliquam veritatis</p>
+                    </div>
+
+                    <dic class="card card-1">
+                        <img src="images/images-grid-cards/produto01.jpg" alt="Produto 1">
+                        <div class="btn"><a href="#">Veja mais</a></div>
+                    </dic>
+
+                    <dic class="card card-2">
+                        <img src="images/images-grid-cards/produto02.jpg" alt="Produto 2">
+                        <div class="btn"><a href="#">Veja mais</a></div>
+                    </dic>
+
+                    <dic class="card card-3">
+                        <img src="images/images-grid-cards/produto03.jpg" alt="Produto 3">
+                        <div class="btn"><a href="#">Veja mais</a></div>
+                    </dic>
+                </section>
+                <!-- FIM SEÇÃO CARDS PRODUTOS -->
+
+                <section class="grid-sobre" id="sobre">
+                    <div class="bloco-1">
+                        <div class="dados">
+                            <div class="dado">
+                                <h3>2014</h3>
+                                <p>Lorem ipsum dolor</p>
+                            </div>
+                            <div class="dado dado-2">
+                                <h3>8900+</h3>
+                                <p>Lorem ipsum dolor</p>
+                            </div>
+                            <div class="dado">
+                                <h3>3105+</h3>
+                                <p>Lorem ipsum dolor</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloco-2">
+                        <h2>Best Fashion <span>Since 2014</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus modi tempora tenetur laboriosam, quod quisquam deserunt aliquam officiis dolor placeat ducimus impedit quo fugit officia excepturi velit! Natus, excepturi voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel atque delectus eligendi, ab quas commodi nostrum sint? Quis, reiciendis. Obcaecati, corporis exercitationem! Distinctio quibusdam atque ad dolor voluptatem, aut ut?</p>
+                    </div>
+
+                </section>
+            </div>
+       </section>
+       <!-- FIM DA SEÇÃO CARDS E SOBRE -->
+
+       
+        <div class="interface">
+            <section class="grid-produtos-carrossel" id="produtos">
+                <div class="titulo-carrossel">
+                    <h2>Best Seller <span>Product</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore culpa eum pariatur minus repudiandae harum atque laudantium amet ipsa eius, illum consectetur expedita optio quae accusamus minima! Deserunt, modi!</p>
+                    <div class="btn-titulo">
+                        <a href="#">Veja Mais</a>
+                    </div>
+                </div>
+                <div class="carrossel-container">
+
+                    <button class="carrossel-btn prev-btn" id="prevBtn">&#10094</button>
+                    <button class="carrossel-btn next-btn" id="nextBtn">&#10095</button>
+
+                    <div class="carrossel-viewport">
+                        <ul class="carrossel-track" id="carrosselTrack">
+                            <li class="carrossel-card">
+                                <div class="img-card"></div>
+                                <div class="infos">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <h3>Name produto</h3>
+                                    <p>Price: <span>$140</span></p>
+                                </div>
+                            </li>
+                            <li class="carrossel-card">
+                                <div class="img-card"></div>
+                                <div class="infos">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <h3>Name produto</h3>
+                                    <p>Price: <span>$140</span></p>
+                                </div>
+                            </li>
+                            <li class="carrossel-card">
+                                <div class="img-card"></div>
+                                <div class="infos">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <h3>Name produto</h3>
+                                    <p>Price: <span>$140</span></p>
+                                </div>
+                            </li>
+                            <li class="carrossel-card">
+                                <div class="img-card"></div>
+                                <div class="infos">
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                    <h3>Name produto</h3>
+                                    <p>Price: <span>$140</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="bg-secao">
+            <div class="interface">
+                <section class="grid-evento" id="evento">
+                    <div class="titulo-evento">
+                        <h2>Titulo Evento no dia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio possimus ipsa vel, quis accusantium animi sint</p>
+
+                        <div class="data">
+                            <div class="card-data"><p>22/05</p></div>
+                            <div class="card-data"><p>29/05</p></div>
+                            <div class="card-data"><p>03/05</p> </div>
+                        </div>
+
+                        <div class="btn-evento"><a href="#">Clique aqui</a></div>
+                    </div>
+
+                    <div class="img-evento">
+                        <img src="images/images-grid-cards/produto03.jpg" alt="">
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <section class="inicio">
+            <div class="logo-footer"><h2>Logo aqui</h2></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde temporibus sed animi et praesentium, quos molestiae nemo similique impedit mollitia aperiam laboriosam voluptatem deserunt repellendus asperiores doloremque quibusdam! Dolore, magnam.</p>
+
+            <div class="redes-sociais">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </section>
+
+        <section class="links">
+            <ul>
+                <li><h3>Link</h3></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preços</a></li>
+                <li><a href="#">Baixar</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+            </ul>
+
+            <ul>
+                <li><h3>Suporte</h3></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Como Funciona</a></li>
+                <li><a href="#">Características</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">cominudade</a></li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <div class="dados-contato">
+                <h3>Nosso contato</h3>
+                <a href="#">
+                    <div class="card-contato">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>+55 (21) 99999-9999</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card-contato">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>emailempressa@gmail.com</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="footer-bottom">
+            <p>"Nome site/Empresa" &copy; 2026</p>
+        </section>
+    </footer>
+</body>
+</html>
